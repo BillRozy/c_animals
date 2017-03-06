@@ -3,19 +3,18 @@
 #ifndef UNTITLED_ANIMAL_H
 #define UNTITLED_ANIMAL_H
 
-#include <c++/iostream>
-#include <c++/thread>
-#include <c++/vector>
+#include <iostream>
+#include <thread>
+#include <vector>
 
 class Animal {
 protected:
     float mAge, mWeight;
     std::string mKindOf;
-    std::thread mPregnantThread;
+//    std::thread mBornThread;
 
 public:
     Animal();
-    virtual ~Animal(){ std::cout << "~Animal()" << std::endl; };
     Animal(float age, float weight);
     virtual void tellAboutSelf() = 0;
     void move();

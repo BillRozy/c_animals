@@ -12,7 +12,6 @@ private:
 public:
     Bear();
     Bear(float age, float weight, std::string pref);
-    ~Bear();
     void tellAboutSelf();
     friend void setBearPref(std::string pref, Bear& animal);
     inline std::string toString(){

@@ -1,5 +1,5 @@
 
-#include <c++/thread>
+#include <thread>
 #include <zconf.h>
 #include "Animal.h"
 

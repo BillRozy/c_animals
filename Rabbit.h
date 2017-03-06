@@ -12,7 +12,6 @@ class Rabbit : public Animal {
 public:
     Rabbit();
     Rabbit(float age, float weight);
-    ~Rabbit();
     void tellAboutSelf();
     inline std::string toString(){
         return "Hi, i am Rabbit!";
